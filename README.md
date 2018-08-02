@@ -9,7 +9,8 @@
 	python setup.py install
 	```
 
-2. ## 备份配置信息 ##
+2. ```
+   ## 备份配置信息 ##
    
    # 备份名称，用于标记
    BACKUP_NAME=""
@@ -40,7 +41,7 @@
    QINIU_SECRET_KEY="SK"
    
    ## 七牛配置信息 End ##
-	```
+   ```
 
 3. 给 `./backuptoqiniu.sh` 添加执行权限
 	```
